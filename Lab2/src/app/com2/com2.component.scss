@@ -1,0 +1,64 @@
+.second {
+  margin-top: 100px;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container-left {
+  display: flex;
+  border: solid black 1px;
+  box-shadow: 5px 5px;
+  padding: 0 10px;
+  height: 200px;
+  width: 450px;
+}
+
+.container-right {
+  display: flex;
+  border: solid black 1px;
+  box-shadow: 5px 5px;
+  padding: 0 10px;
+  height: 200px;
+  width: 450px;
+}
+
+.title-1 {
+  margin-bottom: 50px;
+  color: grey;
+}
+
+.title-2 {
+  margin-bottom: 50px;
+  color: grey;
+}
+
+.percentages-1 {
+  color: red;
+}
+
+.percentages-2 {
+  color: green;
+}
+
+.text-container-1 {
+  margin-right: 100px;
+}
+
+.chart-1 {
+  width: 100px;
+  height: 100px;
+  margin: auto 0px;
+}
+
+.text-container-2 {
+  margin-right: 100px;
+}
+
+.chart-2 {
+  width: 100px;
+  height: 100px;
+  margin: auto 0px;
+}
