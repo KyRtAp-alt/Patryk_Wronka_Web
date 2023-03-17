@@ -1,20 +1,19 @@
-// :host {
-//   display: flex;
-//   justify-content: space-between;
-// }
-
 .main-container {
   display: flex;
-  justify-content: space-evenly;
+  margin-top: 100px;
+  // margin-left: 50px;
+  justify-content: center;
 }
 
 .container-left {
   display: flex;
-  border: solid black 1px;
-  box-shadow: 5px 5px;
+  -webkit-box-shadow: 0px 0px 16px 3px rgba(146, 146, 146, 0.62);
+  -moz-box-shadow: 0px 0px 16px 3px rgba(146, 146, 146, 0.62);
+  box-shadow: 0px 0px 16px 3px rgba(146, 146, 146, 0.62);
   padding: 0 10px;
   height: 100%;
   width: 450px;
+  margin-right: 50px;
 }
 
 .img1 {
@@ -29,8 +28,9 @@
 
 .container-right {
   display: flex;
-  border: solid black 1px;
-  box-shadow: 5px 5px;
+  -webkit-box-shadow: 0px 0px 16px 3px rgba(146, 146, 146, 0.62);
+  -moz-box-shadow: 0px 0px 16px 3px rgba(146, 146, 146, 0.62);
+  box-shadow: 0px 0px 16px 3px rgba(146, 146, 146, 0.62);
   padding: 0 10px;
   height: 100%;
   width: 450px;
@@ -40,7 +40,7 @@
   width: 35px;
   height: 35px;
   margin: auto 0px;
-  border: 5px purple solid;
+  border: 5px #9b59b6 solid;
   border-radius: 50px;
   padding: 5px;
   margin-right: 50px;
@@ -62,15 +62,15 @@
 }
 
 .price-1 {
-  font-size: 20px;
+  font-size: 18px;
   color: green;
 }
 
 .price-2 {
-  font-size: 20px;
-  color: purple;
+  font-size: 18px;
+  color: #9b59b6;
 }
 
 .text {
-  font-size: 15px;
+  font-size: 14px;
 }

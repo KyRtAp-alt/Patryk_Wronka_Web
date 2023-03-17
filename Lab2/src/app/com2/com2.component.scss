@@ -1,27 +1,31 @@
 .second {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .main-container {
   display: flex;
-  justify-content: space-evenly;
+  // margin-left: 50px;
+  justify-content: center;
 }
 
 .container-left {
   display: flex;
-  border: solid black 1px;
-  box-shadow: 5px 5px;
+  -webkit-box-shadow: 0px 0px 16px 3px rgba(146, 146, 146, 0.62);
+  -moz-box-shadow: 0px 0px 16px 3px rgba(146, 146, 146, 0.62);
+  box-shadow: 0px 0px 16px 3px rgba(146, 146, 146, 0.62);
   padding: 0 10px;
-  height: 200px;
+  height: 170px;
   width: 450px;
+  margin-right: 50px;
 }
 
 .container-right {
   display: flex;
-  border: solid black 1px;
-  box-shadow: 5px 5px;
+  -webkit-box-shadow: 0px 0px 16px 3px rgba(146, 146, 146, 0.62);
+  -moz-box-shadow: 0px 0px 16px 3px rgba(146, 146, 146, 0.62);
+  box-shadow: 0px 0px 16px 3px rgba(146, 146, 146, 0.62);
   padding: 0 10px;
-  height: 200px;
+  height: 170px;
   width: 450px;
 }
 
@@ -37,10 +41,12 @@
 
 .percentages-1 {
   color: red;
+  font-size: 15px;
 }
 
 .percentages-2 {
   color: green;
+  font-size: 15px;
 }
 
 .text-container-1 {
@@ -48,7 +54,7 @@
 }
 
 .chart-1 {
-  width: 100px;
+  width: 150px;
   height: 100px;
   margin: auto 0px;
 }
@@ -58,7 +64,7 @@
 }
 
 .chart-2 {
-  width: 100px;
+  width: 150px;
   height: 100px;
   margin: auto 0px;
 }
