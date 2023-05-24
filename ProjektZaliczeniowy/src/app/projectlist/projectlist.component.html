@@ -1,2 +1,21 @@
 <app-navbar></app-navbar>
-<p>projectlist works!</p>
+<div class="blog-container">
+    <h2 class="main-title">Dodaj nowy projekt</h2>
+    <div class="input-group">
+        <label>Tytuł projektu:</label>
+        <input [(ngModel)]="newPost.title" placeholder="Nazwa projektu">
+    </div>
+    <div class="input-group">
+        <label>Opis projektu:</label>
+        <textarea [(ngModel)]="newPost.content" placeholder="Opis projektu"></textarea>
+    </div>
+    <button class="click" (click)="addPost()">Add Post</button>
+
+    <h2 class="main-title">Projekty</h2>
+    <div *ngFor="let post of posts; let i = index" class="post">
+        <h3 class="gen-title">{{ post.title }}</h3>
+        <p class="gen-content">{{ post.content }}</p>
+        <button (click)="deletePost(i)">Delete</button>
+        <button (click)="enterEditMode(post, i)">Edit</button>
+    </div>
+</div>

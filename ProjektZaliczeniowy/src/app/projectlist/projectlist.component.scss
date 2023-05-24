@@ -1,28 +1,74 @@
-h2 {
-  color: #333;
+.blog-container {
+  max-width: 800px;
+  margin: 0 auto;
 }
 
-form {
-  margin-bottom: 10px;
-
-  input {
-    padding: 5px;
-  }
-
-  button {
-    margin-left: 10px;
-    padding: 5px 10px;
-  }
+.h2 {
+  margin-top: 20px;
 }
 
-ul {
-  list-style-type: none;
+.input-group {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
 
-  li {
-    margin-bottom: 5px;
+.label {
+  margin-bottom: 5px;
+  width: 200px;
+  height: 300px;
+}
 
-    button {
-      margin-left: 5px;
-    }
-  }
+.input,
+.textarea {
+  width: 200px;
+  height: 300px;
+  padding: 5px;
+}
+
+.button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #eee;
+  cursor: pointer;
+}
+
+.post {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.img {
+  max-width: 100%;
+}
+
+.button {
+  margin-top: 10px;
+}
+
+.click {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.main-title {
+  margin-top: 50px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gen-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.gen-content {
+  font-size: 16px;
+  margin-left: 30px;
+  margin-bottom: 30px;
 }
